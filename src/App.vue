@@ -26,12 +26,12 @@ export default {
 
         return {
             motorcycles: [
-                { id: 1, name: 'Мотоцикл GR8 f300a (4t)',       price: 330182, oldPrice: 399990, image: '/photos/gr8 f300a.png',         monthly: 30000, credit: 12000, cashback: 36000 },
-                { id: 2, name: 'Мотоцикл GR8 t300l',             price: 431990, oldPrice: 479990, image: '/photos/gr8 t300l.png',         monthly: 36000, credit: 14400, cashback: 43200 },
-                { id: 3, name: 'Мотоцикл PROGASI HARDCORE',      price: 419990, oldPrice: null,   image: '/photos/progasi hardcore.jpg',  monthly: 35000, credit: 14000, cashback: 42000 },
-                { id: 4, name: 'Мотоцикл Progasi RACE 300 AIR',  price: 289990, oldPrice: null,   image: '/photos/progasi 300 air.jpeg', monthly: 24170, credit: 9670,  cashback: 29000 },
-                { id: 5, name: 'Мотоцикл KAYO K1 250mx',         price: 161990, oldPrice: 179990, image: '/photos/kayo k1.jpg',           monthly: 14000, credit: 5000,  cashback: 16000 },
-                { id: 6, name: 'Мотоцикл BSE Z1',                price: 169990, oldPrice: null,   image: '/photos/bse z1.png',            monthly: 14000, credit: 5000,  cashback: 17000 },
+                { id: 1, name: 'Мотоцикл GR8 f300a (4t)',       price: 330182, oldPrice: 399990, image: '/photos/gr8%20f300a.png',         monthly: 30000, credit: 12000, cashback: 36000 },
+                { id: 2, name: 'Мотоцикл GR8 t300l',             price: 431990, oldPrice: 479990, image: '/photos/gr8%20t300l.png',         monthly: 36000, credit: 14400, cashback: 43200 },
+                { id: 3, name: 'Мотоцикл PROGASI HARDCORE',      price: 419990, oldPrice: null,   image: '/photos/progasi%20hardcore.jpg',  monthly: 35000, credit: 14000, cashback: 42000 },
+                { id: 4, name: 'Мотоцикл Progasi RACE 300 AIR',  price: 289990, oldPrice: null,   image: '/photos/progasi%20300%20air.jpeg', monthly: 24170, credit: 9670,  cashback: 29000 },
+                { id: 5, name: 'Мотоцикл KAYO K1 250mx',         price: 161990, oldPrice: 179990, image: '/photos/kayo%20k1.jpg',           monthly: 14000, credit: 5000,  cashback: 16000 },
+                { id: 6, name: 'Мотоцикл BSE Z1',                price: 169990, oldPrice: null,   image: '/photos/bse%20z1.png',            monthly: 14000, credit: 5000,  cashback: 17000 },
                 { id: 7, name: 'Мотоцикл GR-X YX160',            price: 139490, oldPrice: 139490, image: '/photos/grx.png',                 monthly: 11000, credit: 4000,  cashback: 14000 }
             ],
 
@@ -193,7 +193,7 @@ export default {
 
     <section id="home" class="hero-section">
         <div class="hero-content">
-            <img src="./assets/photos/logo_dark.png" alt="Z-MOTORS" class="hero-logo">
+            <img src="/photos/logo_dark.png" alt="Z-MOTORS" class="hero-logo">
             <h1 class="hero-title">Мототехника<br>для настоящих ценителей</h1>
             <p class="hero-subtitle">Профессиональная техника, выгодные цены, гарантия качества</p>
             <button class="hero-button" @click="scrollTo('katalog')">☰ Перейти в каталог</button>
@@ -202,7 +202,7 @@ export default {
 
     <section class="info-section">
         <div class="info-container">
-            <img src="./assets/photos/info_now.png" alt="Акции" class="info-banner">
+            <img src="/photos/info_now.png" alt="Акции" class="info-banner">
         </div>
     </section>
 
@@ -216,17 +216,17 @@ export default {
             <div class="row g-4 justify-content-center mt-3">
                 <div class="col-12 col-md-4">
                     <div class="partner-card p-4 text-center rounded">
-                        <img src="./assets/logos/Partner_6.png" alt="Avito" class="partner-logo">
+                        <img src="/logos/Partner_6.png" alt="Avito" class="partner-logo">
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="partner-card p-4 text-center rounded">
-                        <img src="./assets/logos/yandex_logo.png" alt="Яндекс" class="partner-logo">
+                        <img src="/logos/yandex_logo.png" alt="Яндекс" class="partner-logo">
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="partner-card p-4 text-center rounded">
-                        <img src="./assets/logos/Partner_9.png" alt="Сбербанк" class="partner-logo">
+                        <img src="/logos/Partner_9.png" alt="Сбербанк" class="partner-logo">
                     </div>
                 </div>
             </div>
@@ -237,7 +237,7 @@ export default {
         <div class="container">
             <div class="feature-card feature-orange">
                 <div class="feature-icon">
-                    <img src="./assets/photos/favourite.png" alt="Лучшие цены" width="150" height="150">
+                    <img src="/photos/favourite.png" alt="Лучшие цены" width="150" height="150">
                 </div>
                 <div class="feature-content">
                     <h2 class="feature-title">ЛУЧШИЕ ЦЕНЫ,<br>РАССРОЧКА 0%</h2>
@@ -246,7 +246,7 @@ export default {
             </div>
             <div class="feature-card feature-blue">
                 <div class="feature-icon">
-                    <img src="./assets/photos/videochat.png" alt="Видеоконсультация" width="150" height="150">
+                    <img src="/photos/videochat.png" alt="Видеоконсультация" width="150" height="150">
                 </div>
                 <div class="feature-content">
                     <h2 class="feature-title">БЕСПЛАТНАЯ ВИДЕОКОНСУЛЬТАЦИЯ</h2>
@@ -255,7 +255,7 @@ export default {
             </div>
             <div class="feature-card feature-dark">
                 <div class="feature-icon">
-                    <img src="./assets/photos/S600xU_2x (1).png" alt="Развитие" width="150" height="150">
+                    <img src="/photos/S600xU_2x (1).png" alt="Развитие" width="150" height="150">
                 </div>
                 <div class="feature-content">
                     <h2 class="feature-title">ДВИГАЙТЕСЬ С НАМИ!</h2>
@@ -362,15 +362,15 @@ export default {
                         <p class="promo-text">Напишите нам и мы подберем транспорт для вас!</p>
                         <button class="promo-button" @click="scrollTo('kontakti')">Написать</button>
                     </div>
-                    <img src="./assets/photos/helmet.png" alt="шлем" class="promo-image">
+                    <img src="/photos/helmet.png" alt="шлем" class="promo-image">
                 </div>
                 <div class="promo-card promo-white">
                     <div class="promo-content">
                         <h3 class="promo-title">Будьте в курсе всех акций!</h3>
                         <p class="promo-text">Подписывайтесь на наши каналы в соцсетях!</p>
-                        <img src="./assets/photos/сотсети.png" alt="соцсети" class="social-icons">
+                        <img src="/photos/сотсети.png" alt="соцсети" class="social-icons">
                     </div>
-                    <img src="./assets/photos/enduro.jpg" alt="эндуро" class="promo-bike">
+                    <img src="/photos/enduro.jpg" alt="эндуро" class="promo-bike">
                 </div>
             </div>
         </div>
