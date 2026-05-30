@@ -26,12 +26,12 @@ export default {
 
         return {
             motorcycles: [
-                { id: 1, name: 'Мотоцикл GR8 f300a (4t)',       price: 330182, oldPrice: 399990, image: '/photos/gr8%20f300a.png',         monthly: 30000, credit: 12000, cashback: 36000 },
-                { id: 2, name: 'Мотоцикл GR8 t300l',             price: 431990, oldPrice: 479990, image: '/photos/gr8%20t300l.png',         monthly: 36000, credit: 14400, cashback: 43200 },
-                { id: 3, name: 'Мотоцикл PROGASI HARDCORE',      price: 419990, oldPrice: null,   image: '/photos/progasi%20hardcore.jpg',  monthly: 35000, credit: 14000, cashback: 42000 },
-                { id: 4, name: 'Мотоцикл Progasi RACE 300 AIR',  price: 289990, oldPrice: null,   image: '/photos/progasi%20300%20air.jpeg', monthly: 24170, credit: 9670,  cashback: 29000 },
-                { id: 5, name: 'Мотоцикл KAYO K1 250mx',         price: 161990, oldPrice: 179990, image: '/photos/kayo%20k1.jpg',           monthly: 14000, credit: 5000,  cashback: 16000 },
-                { id: 6, name: 'Мотоцикл BSE Z1',                price: 169990, oldPrice: null,   image: '/photos/bse%20z1.png',            monthly: 14000, credit: 5000,  cashback: 17000 },
+                { id: 1, name: 'Мотоцикл GR8 f300a (4t)',       price: 330182, oldPrice: 399990, image: '/photos/gr8 f300a.png',         monthly: 30000, credit: 12000, cashback: 36000 },
+                { id: 2, name: 'Мотоцикл GR8 t300l',             price: 431990, oldPrice: 479990, image: '/photos/gr8 t300l.png',         monthly: 36000, credit: 14400, cashback: 43200 },
+                { id: 3, name: 'Мотоцикл PROGASI HARDCORE',      price: 419990, oldPrice: null,   image: '/photos/progasi hardcore.jpg',  monthly: 35000, credit: 14000, cashback: 42000 },
+                { id: 4, name: 'Мотоцикл Progasi RACE 300 AIR',  price: 289990, oldPrice: null,   image: '/photos/progasi 300 air.jpeg', monthly: 24170, credit: 9670,  cashback: 29000 },
+                { id: 5, name: 'Мотоцикл KAYO K1 250mx',         price: 161990, oldPrice: 179990, image: '/photos/kayo k1.jpg',           monthly: 14000, credit: 5000,  cashback: 16000 },
+                { id: 6, name: 'Мотоцикл BSE Z1',                price: 169990, oldPrice: null,   image: '/photos/bse z1.png',            monthly: 14000, credit: 5000,  cashback: 17000 },
                 { id: 7, name: 'Мотоцикл GR-X YX160',            price: 139490, oldPrice: 139490, image: '/photos/grx.png',                 monthly: 11000, credit: 4000,  cashback: 14000 }
             ],
 
